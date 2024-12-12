@@ -1,21 +1,11 @@
 zerops:
   - setup: bot
-    # ==== how to build your application ====
     build:
-      # what technologies should the build
       base: deno@2
-
-      # what commands to use to build your app
       buildCommands:
-        - deno task start
-
-      # select which files / folders to deploy
-      deployFiles: *
-
-    # ==== how to run your application ====
+        - deno i
+      deployFiles: 
+        - /
     run:
       base: deno@2
-
-
-      # how to start your application
       start: deno task start
