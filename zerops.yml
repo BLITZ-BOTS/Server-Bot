@@ -3,5 +3,5 @@ zerops:
     build:
       deployFiles: ./
     run:
-      base: deno@2
+      base: deno@2.0.0
       start: deno run start
