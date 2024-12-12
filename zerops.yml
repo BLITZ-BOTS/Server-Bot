@@ -1,9 +1,7 @@
 zerops:
   - setup: bot
     build:
-      base: deno@1
-      deployFiles: 
-        - /
+      deployFiles: ./
     run:
-      base: deno@1
-      start: deno task start
+      base: deno@2
+      start: deno run start
