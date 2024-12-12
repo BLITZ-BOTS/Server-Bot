@@ -1,4 +1,4 @@
-import { Bot } from "@blitz-bots/bot";
+import { Bot } from "jsr:@blitz-bots/bot";
 
 const token = Deno.env.get("DISCORD_TOKEN");
 

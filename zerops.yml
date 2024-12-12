@@ -2,8 +2,6 @@ zerops:
   - setup: bot
     build:
       base: deno@1
-      buildCommands:
-        - deno i
       deployFiles: 
         - /
     run:
