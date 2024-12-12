@@ -1,0 +1,8 @@
+{
+  "tasks": {
+    "start": "deno run --allow-net --allow-read --allow-env --env=.env bot.ts"
+  },
+  "imports": {
+    "@blitz-bots/bot": "jsr:@blitz-bots/bot@^1.2.5"
+  }
+}
