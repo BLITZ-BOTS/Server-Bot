@@ -1,6 +1,7 @@
 name: welcome_role
 description: Give a role to users when they join your server
-version: 1.0.0
+version: 1.1.0
 
 config:
   role_id: "1315028818112680051"
+  welcome_channel: "1317308993823178802"
